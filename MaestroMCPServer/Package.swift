@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MaestroMCPServer",
     platforms: [
-        .macOS(.v13)
+        .macOS(.v14)
     ],
     dependencies: [
         .package(url: "https://github.com/modelcontextprotocol/swift-sdk", from: "0.7.1")
